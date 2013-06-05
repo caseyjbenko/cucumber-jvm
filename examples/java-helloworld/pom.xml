@@ -27,6 +27,9 @@
                 <version>2.12.2</version>
                 <configuration>
                     <useFile>false</useFile>
+                    <systemPropertyVariables>
+                           <cucumber.options>--format junit:target/cucumber-junit-report.xml</cucumber.options>
+                    </systemPropertyVariables>
                 </configuration>
             </plugin>
         </plugins>
